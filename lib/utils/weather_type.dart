@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 /// 目前有15种天气类型
 enum WeatherType {
@@ -58,7 +58,7 @@ class WeatherUtil {
       case WeatherType.sunny:
         return [Color(0xFF0071D1), Color(0xFF6DA6E4)];
       case WeatherType.sunnyNight:
-        return [Color(0xFF061E74), Color(0xFF275E9A)];
+        return [Colors.black, Colors.black];
       case WeatherType.cloudy:
         return [Color(0xFF5C82C1), Color(0xFF95B1DB)];
       case WeatherType.cloudyNight:
