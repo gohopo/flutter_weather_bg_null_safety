@@ -44,7 +44,7 @@ class _WeatherNightStarBgState extends State<WeatherNightStarBg>
 
   /// 初始化星星参数
   void initStarParams() {
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 30; i++) {
       var index = Random().nextInt(2);
       _StarParam _starParam = _StarParam(index);
       _starParam.init(width, height, widthRatio);
